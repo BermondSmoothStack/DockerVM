@@ -1,0 +1,29 @@
+Homework 1
+1. How many images are in vm?
+2
+
+2. What is the size of Ubuntu image?
+72mb
+
+3. What is the image tag of nginx image?
+latest
+
+4. What is the base image from the Dockerfile?
+python
+
+5. To what location within the container is the application code copied to during a Docker build? Refer Dockerfile.
+/opt
+
+Homework 2
+
+1. Practice Run and stop the container.
+
+https://github.com/suez-canal-stack/DockerVM/tree/main/Day2 - refer for the following questions
+2. What port is the web application run within the container?
+8080
+
+3. Build a docker image using the Dockerfile and name it webapp. (docker build . -t webapp).
+
+4. Run an instance of the image webapp and publish port 8080 on the container to 8282 on the host.
+
+5. Create a Jenkins docker container and load the page. Write a dockerfile to run the app in 8080 port.

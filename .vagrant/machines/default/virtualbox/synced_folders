@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/felgarde/Documents/smoothstack-cloud-course/DockerVM","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}},"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/Users/felgarde/Documents/smoothstack-cloud-course/DockerVM","disabled":false,"__vagrantfile":true}}}
