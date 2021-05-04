@@ -25,5 +25,21 @@ https://github.com/suez-canal-stack/DockerVM/tree/main/Day2 - refer for the foll
 3. Build a docker image using the Dockerfile and name it webapp. (docker build . -t webapp).
 
 4. Run an instance of the image webapp and publish port 8080 on the container to 8282 on the host.
+(Screenshot)
 
-5. Create a Jenkins docker container and load the page. Write a dockerfile to run the app in 8080 port.
+5. Create a Jenkins docker container and load the page. Write a dockerfile to run the app in 8080 port. 
+(Screenshot)
+
+1. Create a docker account and push an image
+https://hub.docker.com/repository/docker/bermondjon/my-angular
+
+2. What location are the files related to the docker containers and images stored?
+
+3. What is cpu share in container and what is default?
+CPU share is the allocation of resources within a container group. Default cpu share is 1024
+
+4. What command to use the share of CPU cycles for containers?
+--cpu-shares
+
+5. Provide a screen shot of running a Ubuntu container
+which copies a simple shell script(echo "hello world") from host and executes inside the container.
